@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>360 Portofolio – Creative Work</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <img src="assets/images/logo.jpg" alt="Logo" />
+          <span>Creative Work</span>
+        </div>
+        <div class="hamburger" onclick="toggleMenu()">☰</div>
+        <div id="navLinks" class="nav-links">
+          <a href="#home">Beranda</a>
+          <a href="#about">Tentang</a>
+          <a href="#team">Tim</a>
+          <a href="#portfolio">Portofolio</a>
+          <a href="#workflow">Proses</a>
+          <a href="#contact">Kontak</a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero">
+      <h1 class="fade-scroll">Creative Work – Jasa Pembuatan 360°</h1>
+      <p class="fade-scroll">
+        Desain Interaktif, Visual Imersif, Solusi Digital Modern.
+      </p>
+      <a href="#portfolio" class="btn fade-scroll-delay">Lihat Portofolio</a>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about fade-scroll">
+      <div class="container">
+        <h2>Tentang Kami</h2>
+        <p>
+          Kami adalah tim kreatif yang menyediakan layanan pembuatan Virtual
+          Tour 360°, desain UI/UX, dan pengembangan web. Kami menggabungkan
+          teknologi dan seni visual dalam menghadirkan pengalaman digital yang
+          imersif dan modern.
+        </p>
+      </div>
+    </section>
+
+    <!-- TEAM SECTION -->
+    <section id="team" class="team fade-scroll">
+      <div class="container">
+        <h2>Tim Kami</h2>
+        <div class="team-grid">
+          <div class="member">
+            <img
+              class="fade-scroll"
+              src="assets/images/team/foto1.jpg"
+              alt="Anggota 1"
+            />
+            <h4>Barnadi</h4>
+            <p>Editor</p>
+          </div>
+          <div class="member">
+            <img
+              class="fade-scroll"
+              src="assets/images/team/foto2.jpg"
+              alt="Anggota 2"
+            />
+            <h4>Muslik</h4>
+            <p>3D Visual Artist</p>
+          </div>
+          <div class="member">
+            <img
+              class="fade-scroll"
+              src="assets/images/team/foto3.jpg"
+              alt="Anggota 3"
+            />
+            <h4>Salman Alfarizi</h4>
+            <p>Web Development</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO SECTION -->
+    <section id="portfolio" class="portfolio fade-scroll">
+      <div class="container">
+        <h2>Portofolio</h2>
+
+        <div class="portfolio-2column">
+          <!-- Indoor Projects -->
+          <div class="portfolio-column">
+            <h3>📍 Indoor</h3>
+            <div class="project-grid">
+              <div class="project-card fade-scroll-delay1">
+                <img src="assets/images/portfolio/logo.jpg" alt="Indoor 1" />
+                <h4>Virtual Tour Perpustakaan</h4>
+              </div>
+              <div class="project-card fade-scroll-delay2">
+                <img src="assets/images/portfolio/logo.jpg" alt="Indoor 2" />
+                <h4>360 Showroom Produk</h4>
+              </div>
+              <div class="project-card fade-scroll-delay3">
+                <img src="assets/images/portfolio/logo.jpg" alt="Indoor 3" />
+                <h4>Laboratorium Interaktif</h4>
+              </div>
+            </div>
+          </div>
+
+          <!-- Outdoor Projects -->
+          <div class="portfolio-column">
+            <h3>🌄 Outdoor</h3>
+            <div class="project-grid">
+              <div class="project-card fade-scroll-delay1">
+                <a
+                  href="taman/index.htm"
+                  target="_blank"
+                  style="text-decoration: none"
+                >
+                  <img
+                    src="assets/images/portfolio/taman.jpg"
+                    alt="Wisata Alam Virtual – Taman"
+                    style="width: 100%; border-radius: 8px; cursor: pointer"
+                  />
+                  <h4 style="margin-top: 10px">Wisata Alam Virtual – Taman</h4>
+                </a>
+              </div>
+
+              <div class="project-card fade-scroll-delay2">
+                <img src="assets/images/portfolio/logo.jpg" alt="Outdoor 2" />
+                <h4>360 Event Outdoor</h4>
+              </div>
+              <div class="project-card fade-scroll-delay3">
+                <img src="assets/images/portfolio/logo.jpg" alt="Outdoor 3" />
+                <h4>Pameran Ruang Terbuka</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORKFLOW SECTION -->
+    <section id="workflow" class="workflow fade-scroll-delay">
+      <div class="container">
+        <h2>Proses Kerja</h2>
+        <ol>
+          <li>Brief & Diskusi</li>
+          <li>Riset & Konsep</li>
+          <li>Produksi Konten</li>
+          <li>Revisi</li>
+          <li>Finalisasi</li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact fade-scroll">
+      <div class="container">
+        <h2>Kontak Kami</h2>
+        <form id="contactForm">
+          <input type="text" id="name" placeholder="Nama" required />
+          <input type="email" id="email" placeholder="Email" required />
+          <textarea
+            id="message"
+            placeholder="Pesan Anda..."
+            required
+          ></textarea>
+          <button type="submit" class="btn">Kirim</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <p>&copy; 2025 360 Portofolio. All rights reserved.</p>
+    </footer>
+
+    <!-- SCRIPT -->
+    <script src="assets/js/script.js"></script>
+    <script>
+      function toggleMenu() {
+        document.getElementById("navLinks").classList.toggle("show");
+      }
+    </script>
+  </body>
+</html>
